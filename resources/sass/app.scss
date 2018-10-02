@@ -1,0 +1,168 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+	font-size: 14px;
+	line-height: 1;
+	a {
+		font-size: 14px;
+	}
+	.btn {
+		font-size: 14px;
+	}
+	.form-control {
+		font-size: 14px;
+		border-radius: 0;
+	}
+	.container {
+		background-color: #ffffff;
+		padding: 15px;
+		.navbar-brand {
+			font-size: 14px;
+			line-height: 44px;
+		}
+		.col-xs-9 {
+			float: none;
+			margin: 0 auto;
+			a.btn-primary {
+				border-radius: 0;
+				margin-bottom: 20px;
+			}
+		}
+		td .row {
+			margin-left: 0;
+		}
+		legend {
+			margin-bottom: 20px;
+		}
+		.row {
+			button {
+				border-radius: 0;
+				margin-right: 20px;
+			}
+		}
+	}
+}
+nav {
+	.container {
+		padding: 0 15px;
+	}
+}
+.col-xs-4 {
+	.row {
+		margin-left: 0;
+	}
+}
+form {
+	.btn-lg {
+		border-radius: 0;
+		border: 1px solid #aaa;
+	}
+}
+.form-group {
+	.select2 {
+		width: 100% !important;
+	}
+}
+.select2 span {
+	background-color: #ffffff;
+	color: #333333;
+	.selection .select2-selection {
+		border: 1px solid #aaa !important;
+		border-radius: 0;
+	}
+	.select2-selection__rendered {
+		border-bottom: 1px solid #aaa !important;
+	}
+
+	.select2-selection__arrow {
+		height: 28px !important;
+	}
+}
+.select2-container .select2-selection--single {
+	height: 30px !important;
+}
+.select2-container--classic.select2-container--open .select2-selection--single,
+.select2-container--classic .select2-selection--single,
+.select2-dropdown,
+.select2-selection__arrow {
+	border-radius: 0 !important;
+}
+.navbar-laravel {
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.title {
+	padding: 30px;
+}
+.delete{
+	display: flex;
+	justify-content: center;
+	opacity: 0;
+	visibility: hidden;
+}
+.title:hover .delete {
+	opacity: 1;
+	visibility: visible;
+}
+.project-title {
+	color: #3d4852;
+}
+#timer {
+	padding-right: 10px;
+	vertical-align: center;
+	font-weight: bolder;
+	font-size: 15px;
+}
+#timer-title {
+	vertical-align: center;
+	font-size: 15px;
+}
+.main-wrapper{
+	background-color: #eaecef;
+}
+.timer-row {
+	position: relative;
+	text-align:center;
+	margin: 5px;
+	background-color: white;
+}
+
+.timer-div {
+	display:inline-block;
+	margin: 10px;
+	a {
+		border-color: #adadad;
+	}
+	.row {
+		line-height: 33px;
+	}
+}
+.datetimes-input{
+	width: 190px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	vertical-align: middle;
+}
+
+.datetimes-input {
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.table-hover .title {
+	display: none;
+}
+.table-hover .open-timers .title {
+	display: table-row;
+}
+
+
